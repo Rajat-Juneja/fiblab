@@ -1,0 +1,293 @@
+div.book{
+    background:  #f6f6f6;
+    border-radius: 1%;
+    box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.2);
+    padding-top: 2%;
+    width:80%;
+}
+
+.magazine {
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .magazine .page {
+    height: 100%;
+    background: white;
+  }
+  
+  .magazine .page img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  i#pageturner{
+      background: #f0c236;
+      color: black;
+      cursor: pointer;
+      border-radius:50%;
+      margin:2% 0.25%;
+      font-size: 2vw;
+      /* padding: 0.45% 1.1%; */
+  }
+
+  i#pageturner.fa-caret-right{
+      padding:0.45% 0.9% 0.3% 1.1%;
+  }
+  i#pageturner.fa-caret-left{
+    padding:0.45% 1.1% 0.3% 0.9%;
+}
+
+  i#pageturner.disabled{
+    pointer-events: none;
+    background: grey;
+    cursor: auto;
+  }
+
+  button.hide{
+      display: none !important;
+  }
+
+  Range.volrange{
+    transform: rotate(-90deg) translate(-100%);
+  }
+
+  /* input#range {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; 
+  }
+  input#range::-webkit-slider-runnable-track {
+    width: 120%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: grey;
+    border-radius: 1px;
+  }
+  input#range::-webkit-slider-thumb{
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F0C236;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transform: translate(0,-40%);
+    /* box-shadow: -1800px 0 0 1800px #f0c236; 
+    position: relative;
+  }
+  input#range::-webkit-slider-thumb::before{
+      content: '';
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      top:0;
+      background: black;
+      box-shadow: 20px 20px 20px 20px black;
+  }
+  input#range:focus::-webkit-slider-runnable-track {
+    background: grey;
+  }
+  input#range::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: grey;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  input#range::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #2497E3;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F0C236;
+    cursor: pointer;
+  }
+  input#range::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input#range::-ms-fill-lower {
+    background: grey;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input#range::-ms-fill-upper {
+    background: grey;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input#range::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #2497E3;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F0C236;
+    cursor: pointer;
+  }
+  input#range:focus::-ms-fill-lower {
+    background: grey;
+  }
+  input#range:focus::-ms-fill-upper {
+    background: grey;
+  } */
+
+  div.footer{
+      background: black;
+      padding:2%;
+      margin-top: -0.5%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  div.footer div.left button{
+      background:none;
+      border:none;
+  }
+
+  div.footer div.left button i{
+      color:white;
+      padding: 0 10%;
+      font-size: 1.2vw;
+      cursor: pointer;
+  }
+
+  input#volume {
+    height: 0px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 50%;
+  }
+  input#volume:focus {
+    outline: none;
+  }
+  input#volume::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #B6B6B6;
+    border-radius: 4px;
+    border: 1px solid #8A8A8A;
+  }
+  input#volume::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #828282;
+    border: 1px solid #8A8A8A;
+    height: 13px;
+    width: 16px;
+    border-radius: 6px;
+    background: #DADADA;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4.75px;
+  }
+  input#volume:focus::-webkit-slider-runnable-track {
+    background: #B6B6B6;
+  }
+  input#volume::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #B6B6B6;
+    border-radius: 4px;
+    border: 1px solid #8A8A8A;
+  }
+  input#volume::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #828282;
+    border: 1px solid #8A8A8A;
+    height: 13px;
+    width: 16px;
+    border-radius: 6px;
+    background: #DADADA;
+    cursor: pointer;
+  }
+  input#volume::-ms-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input#volume::-ms-fill-lower {
+    background: #B6B6B6;
+    border: 1px solid #8A8A8A;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input#volume::-ms-fill-upper {
+    background: #B6B6B6;
+    border: 1px solid #8A8A8A;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input#volume::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px #828282;
+    border: 1px solid #8A8A8A;
+    height: 13px;
+    width: 16px;
+    border-radius: 6px;
+    background: #DADADA;
+    cursor: pointer;
+  }
+  input#volume:focus::-ms-fill-lower {
+    background: #B6B6B6;
+  }
+  input#volume:focus::-ms-fill-upper {
+    background: #B6B6B6;
+  }
+
+  div.footer div.right button.vupbtn, div.footer div.right button.voffbtn{
+      background:none;
+      border:none;
+      color:white;
+  }
+
+  div.footer div.right button.vupbtn i, div.footer div.right button.voffbtn i{
+    color:white;
+      padding: 0 10%;
+      font-size: 1.2vw;
+      cursor: pointer;
+}
+
+div.footer div.right button.vupbtn:hover input#volume, div.footer div.right button.voffbtn:hover input#volume{
+    transform:scale(0) rotate(-90deg) translate(105%);
+    transition-duration: 0.5s;
+}
+
+  input#volume,input#volume:hover{
+      transform: scale(1)  rotate(-90deg) translate(105%);
+      transition-duration: 0.1s;
+  }
+  input#volume.hide{
+      transform:scale(0)  rotate(-90deg) translate(105%);
+      transition-duration: 0.1s;
+      transition-delay: 1s;
+  }
